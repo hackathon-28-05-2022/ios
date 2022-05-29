@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0032CA728423609008C2FF4 /* gameinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CA628423609008C2FF4 /* gameinnApp.swift */; };
+		E0032CA928423609008C2FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CA828423609008C2FF4 /* ContentView.swift */; };
+		E0032CAB2842360B008C2FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0032CAA2842360B008C2FF4 /* Assets.xcassets */; };
+		E0032CAE2842360B008C2FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0032CAD2842360B008C2FF4 /* Preview Assets.xcassets */; };
+		E0032CB82842360C008C2FF4 /* gameinnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CB72842360C008C2FF4 /* gameinnTests.swift */; };
+		E0032CC22842360C008C2FF4 /* gameinnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CC12842360C008C2FF4 /* gameinnUITests.swift */; };
+		E0032CC42842360C008C2FF4 /* gameinnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CC32842360C008C2FF4 /* gameinnUITestsLaunchTests.swift */; };
+		E0032CD1284237FC008C2FF4 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CD0284237FC008C2FF4 /* Feed.swift */; };
+		E0032CD32842380E008C2FF4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CD22842380E008C2FF4 /* Store.swift */; };
+		E0032CD52842381E008C2FF4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CD42842381E008C2FF4 /* Account.swift */; };
+		E0032CD728424093008C2FF4 /* ArticleLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CD628424093008C2FF4 /* ArticleLink.swift */; };
+		E0032CD9284244E8008C2FF4 /* axieinfinity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CD8284244E8008C2FF4 /* axieinfinity.jpg */; };
+		E0032CDB284251B1008C2FF4 /* splinterlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CDA284251B1008C2FF4 /* splinterlands.jpg */; };
+		E0032CDD284253F3008C2FF4 /* author 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CDC284253F3008C2FF4 /* author 1.jpg */; };
+		E0032CDF28425573008C2FF4 /* author 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CDE28425573008C2FF4 /* author 2.jpg */; };
+		E0032CE128426853008C2FF4 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CE028426853008C2FF4 /* StoreItem.swift */; };
+		E0032CE528427A56008C2FF4 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CE428427A56008C2FF4 /* ArticleView.swift */; };
+		E0032CE82842992F008C2FF4 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0032CE72842992F008C2FF4 /* YouTubePlayerKit */; };
+		E0032CEA2842D7B1008C2FF4 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CE92842D7B0008C2FF4 /* NewPostView.swift */; };
+		E0032CF12842E115008C2FF4 /* fortnite-outfit-aerobic-assassin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CEC2842E114008C2FF4 /* fortnite-outfit-aerobic-assassin.jpg */; };
+		E0032CF22842E115008C2FF4 /* fortnite-outfit-Absenz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CED2842E114008C2FF4 /* fortnite-outfit-Absenz.jpg */; };
+		E0032CF32842E115008C2FF4 /* fortnite-outfit-agent-peely.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CEE2842E114008C2FF4 /* fortnite-outfit-agent-peely.jpg */; };
+		E0032CF42842E115008C2FF4 /* fortnite-outfit-8-ball-vs-scratch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CEF2842E114008C2FF4 /* fortnite-outfit-8-ball-vs-scratch.jpg */; };
+		E0032CF52842E115008C2FF4 /* fortnite-outfit-aim-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0032CF02842E114008C2FF4 /* fortnite-outfit-aim-1.jpg */; };
+		E0032CF728435A3A008C2FF4 /* FeedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CF628435A3A008C2FF4 /* FeedJSON.swift */; };
+		E0032CF928436104008C2FF4 /* ArticleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CF828436104008C2FF4 /* ArticleStruct.swift */; };
+		E0032CFB2843692D008C2FF4 /* CommentsJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CFA2843692D008C2FF4 /* CommentsJSON.swift */; };
+		E0032CFE28436E2B008C2FF4 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CFD28436E2B008C2FF4 /* CommentsView.swift */; };
+		E0032D1228438932008C2FF4 /* logo-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0228438932008C2FF4 /* logo-20@2x.png */; };
+		E0032D1328438932008C2FF4 /* logo-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0328438932008C2FF4 /* logo-29.png */; };
+		E0032D1428438932008C2FF4 /* logo-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0428438932008C2FF4 /* logo-1024.png */; };
+		E0032D1528438932008C2FF4 /* logo-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0528438932008C2FF4 /* logo-20@3x.png */; };
+		E0032D1628438932008C2FF4 /* logo-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0628438932008C2FF4 /* logo-76.png */; };
+		E0032D1728438932008C2FF4 /* logo-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0728438932008C2FF4 /* logo-40@3x.png */; };
+		E0032D1828438932008C2FF4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0828438932008C2FF4 /* Contents.json */; };
+		E0032D1928438932008C2FF4 /* logo-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0928438932008C2FF4 /* logo-40.png */; };
+		E0032D1A28438932008C2FF4 /* logo-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0A28438932008C2FF4 /* logo-76@2x.png */; };
+		E0032D1B28438932008C2FF4 /* logo-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0B28438932008C2FF4 /* logo-40@2x.png */; };
+		E0032D1C28438932008C2FF4 /* logo-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0C28438932008C2FF4 /* logo-83.5@2x.png */; };
+		E0032D1D28438932008C2FF4 /* logo-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0D28438932008C2FF4 /* logo-60@2x.png */; };
+		E0032D1E28438932008C2FF4 /* logo-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0E28438932008C2FF4 /* logo-29@3x.png */; };
+		E0032D1F28438932008C2FF4 /* logo-20.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D0F28438932008C2FF4 /* logo-20.png */; };
+		E0032D2028438932008C2FF4 /* logo-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D1028438932008C2FF4 /* logo-29@2x.png */; };
+		E0032D2128438932008C2FF4 /* logo-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0032D1128438932008C2FF4 /* logo-60@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0032CB42842360C008C2FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0032C9B28423609008C2FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0032CA228423609008C2FF4;
+			remoteInfo = gameinn;
+		};
+		E0032CBE2842360C008C2FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0032C9B28423609008C2FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0032CA228423609008C2FF4;
+			remoteInfo = gameinn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0032CA328423609008C2FF4 /* SocialChains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialChains.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0032CA628423609008C2FF4 /* gameinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameinnApp.swift; sourceTree = "<group>"; };
+		E0032CA828423609008C2FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0032CAA2842360B008C2FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0032CAD2842360B008C2FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0032CB32842360C008C2FF4 /* gameinnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameinnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0032CB72842360C008C2FF4 /* gameinnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameinnTests.swift; sourceTree = "<group>"; };
+		E0032CBD2842360C008C2FF4 /* gameinnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameinnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0032CC12842360C008C2FF4 /* gameinnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameinnUITests.swift; sourceTree = "<group>"; };
+		E0032CC32842360C008C2FF4 /* gameinnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameinnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0032CD0284237FC008C2FF4 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		E0032CD22842380E008C2FF4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E0032CD42842381E008C2FF4 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		E0032CD628424093008C2FF4 /* ArticleLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleLink.swift; sourceTree = "<group>"; };
+		E0032CD8284244E8008C2FF4 /* axieinfinity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = axieinfinity.jpg; sourceTree = "<group>"; };
+		E0032CDA284251B1008C2FF4 /* splinterlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splinterlands.jpg; sourceTree = "<group>"; };
+		E0032CDC284253F3008C2FF4 /* author 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "author 1.jpg"; sourceTree = "<group>"; };
+		E0032CDE28425573008C2FF4 /* author 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "author 2.jpg"; sourceTree = "<group>"; };
+		E0032CE028426853008C2FF4 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		E0032CE428427A56008C2FF4 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		E0032CE92842D7B0008C2FF4 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		E0032CEC2842E114008C2FF4 /* fortnite-outfit-aerobic-assassin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fortnite-outfit-aerobic-assassin.jpg"; sourceTree = "<group>"; };
+		E0032CED2842E114008C2FF4 /* fortnite-outfit-Absenz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fortnite-outfit-Absenz.jpg"; sourceTree = "<group>"; };
+		E0032CEE2842E114008C2FF4 /* fortnite-outfit-agent-peely.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fortnite-outfit-agent-peely.jpg"; sourceTree = "<group>"; };
+		E0032CEF2842E114008C2FF4 /* fortnite-outfit-8-ball-vs-scratch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fortnite-outfit-8-ball-vs-scratch.jpg"; sourceTree = "<group>"; };
+		E0032CF02842E114008C2FF4 /* fortnite-outfit-aim-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fortnite-outfit-aim-1.jpg"; sourceTree = "<group>"; };
+		E0032CF628435A3A008C2FF4 /* FeedJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedJSON.swift; sourceTree = "<group>"; };
+		E0032CF828436104008C2FF4 /* ArticleStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleStruct.swift; sourceTree = "<group>"; };
+		E0032CFA2843692D008C2FF4 /* CommentsJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsJSON.swift; sourceTree = "<group>"; };
+		E0032CFC28436BFA008C2FF4 /* gameinn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gameinn.entitlements; sourceTree = "<group>"; };
+		E0032CFD28436E2B008C2FF4 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		E0032D0228438932008C2FF4 /* logo-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-20@2x.png"; sourceTree = "<group>"; };
+		E0032D0328438932008C2FF4 /* logo-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-29.png"; sourceTree = "<group>"; };
+		E0032D0428438932008C2FF4 /* logo-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-1024.png"; sourceTree = "<group>"; };
+		E0032D0528438932008C2FF4 /* logo-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-20@3x.png"; sourceTree = "<group>"; };
+		E0032D0628438932008C2FF4 /* logo-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-76.png"; sourceTree = "<group>"; };
+		E0032D0728438932008C2FF4 /* logo-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-40@3x.png"; sourceTree = "<group>"; };
+		E0032D0828438932008C2FF4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		E0032D0928438932008C2FF4 /* logo-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-40.png"; sourceTree = "<group>"; };
+		E0032D0A28438932008C2FF4 /* logo-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-76@2x.png"; sourceTree = "<group>"; };
+		E0032D0B28438932008C2FF4 /* logo-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-40@2x.png"; sourceTree = "<group>"; };
+		E0032D0C28438932008C2FF4 /* logo-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-83.5@2x.png"; sourceTree = "<group>"; };
+		E0032D0D28438932008C2FF4 /* logo-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-60@2x.png"; sourceTree = "<group>"; };
+		E0032D0E28438932008C2FF4 /* logo-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-29@3x.png"; sourceTree = "<group>"; };
+		E0032D0F28438932008C2FF4 /* logo-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-20.png"; sourceTree = "<group>"; };
+		E0032D1028438932008C2FF4 /* logo-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-29@2x.png"; sourceTree = "<group>"; };
+		E0032D1128438932008C2FF4 /* logo-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-60@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0032CA028423609008C2FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0032CE82842992F008C2FF4 /* YouTubePlayerKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CB02842360C008C2FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CBA2842360C008C2FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0032C9A28423609008C2FF4 = {
+			isa = PBXGroup;
+			children = (
+				E0032CFD28436E2B008C2FF4 /* CommentsView.swift */,
+				E0032CFA2843692D008C2FF4 /* CommentsJSON.swift */,
+				E0032CF828436104008C2FF4 /* ArticleStruct.swift */,
+				E0032CF628435A3A008C2FF4 /* FeedJSON.swift */,
+				E0032CFF28438932008C2FF4 /* App Icon */,
+				E0032CA528423609008C2FF4 /* gameinn */,
+				E0032CB62842360C008C2FF4 /* gameinnTests */,
+				E0032CC02842360C008C2FF4 /* gameinnUITests */,
+				E0032CA428423609008C2FF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0032CA428423609008C2FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CA328423609008C2FF4 /* SocialChains.app */,
+				E0032CB32842360C008C2FF4 /* gameinnTests.xctest */,
+				E0032CBD2842360C008C2FF4 /* gameinnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0032CA528423609008C2FF4 /* gameinn */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CFC28436BFA008C2FF4 /* gameinn.entitlements */,
+				E0032CA628423609008C2FF4 /* gameinnApp.swift */,
+				E0032CA828423609008C2FF4 /* ContentView.swift */,
+				E0032CD0284237FC008C2FF4 /* Feed.swift */,
+				E0032CE92842D7B0008C2FF4 /* NewPostView.swift */,
+				E0032CD628424093008C2FF4 /* ArticleLink.swift */,
+				E0032CD22842380E008C2FF4 /* Store.swift */,
+				E0032CE428427A56008C2FF4 /* ArticleView.swift */,
+				E0032CE028426853008C2FF4 /* StoreItem.swift */,
+				E0032CD42842381E008C2FF4 /* Account.swift */,
+				E0032CAA2842360B008C2FF4 /* Assets.xcassets */,
+				E0032CD8284244E8008C2FF4 /* axieinfinity.jpg */,
+				E0032CDA284251B1008C2FF4 /* splinterlands.jpg */,
+				E0032CDC284253F3008C2FF4 /* author 1.jpg */,
+				E0032CDE28425573008C2FF4 /* author 2.jpg */,
+				E0032CEB2842E114008C2FF4 /* Store Icons */,
+				E0032CAC2842360B008C2FF4 /* Preview Content */,
+			);
+			path = gameinn;
+			sourceTree = "<group>";
+		};
+		E0032CAC2842360B008C2FF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CAD2842360B008C2FF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0032CB62842360C008C2FF4 /* gameinnTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CB72842360C008C2FF4 /* gameinnTests.swift */,
+			);
+			path = gameinnTests;
+			sourceTree = "<group>";
+		};
+		E0032CC02842360C008C2FF4 /* gameinnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CC12842360C008C2FF4 /* gameinnUITests.swift */,
+				E0032CC32842360C008C2FF4 /* gameinnUITestsLaunchTests.swift */,
+			);
+			path = gameinnUITests;
+			sourceTree = "<group>";
+		};
+		E0032CEB2842E114008C2FF4 /* Store Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E0032CEC2842E114008C2FF4 /* fortnite-outfit-aerobic-assassin.jpg */,
+				E0032CED2842E114008C2FF4 /* fortnite-outfit-Absenz.jpg */,
+				E0032CEE2842E114008C2FF4 /* fortnite-outfit-agent-peely.jpg */,
+				E0032CEF2842E114008C2FF4 /* fortnite-outfit-8-ball-vs-scratch.jpg */,
+				E0032CF02842E114008C2FF4 /* fortnite-outfit-aim-1.jpg */,
+			);
+			path = "Store Icons";
+			sourceTree = SOURCE_ROOT;
+		};
+		E0032CFF28438932008C2FF4 /* App Icon */ = {
+			isa = PBXGroup;
+			children = (
+				E0032D0028438932008C2FF4 /* iOS */,
+			);
+			path = "App Icon";
+			sourceTree = "<group>";
+		};
+		E0032D0028438932008C2FF4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0032D0128438932008C2FF4 /* AppIcon.appiconset */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E0032D0128438932008C2FF4 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				E0032D0228438932008C2FF4 /* logo-20@2x.png */,
+				E0032D0328438932008C2FF4 /* logo-29.png */,
+				E0032D0428438932008C2FF4 /* logo-1024.png */,
+				E0032D0528438932008C2FF4 /* logo-20@3x.png */,
+				E0032D0628438932008C2FF4 /* logo-76.png */,
+				E0032D0728438932008C2FF4 /* logo-40@3x.png */,
+				E0032D0828438932008C2FF4 /* Contents.json */,
+				E0032D0928438932008C2FF4 /* logo-40.png */,
+				E0032D0A28438932008C2FF4 /* logo-76@2x.png */,
+				E0032D0B28438932008C2FF4 /* logo-40@2x.png */,
+				E0032D0C28438932008C2FF4 /* logo-83.5@2x.png */,
+				E0032D0D28438932008C2FF4 /* logo-60@2x.png */,
+				E0032D0E28438932008C2FF4 /* logo-29@3x.png */,
+				E0032D0F28438932008C2FF4 /* logo-20.png */,
+				E0032D1028438932008C2FF4 /* logo-29@2x.png */,
+				E0032D1128438932008C2FF4 /* logo-60@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0032CA228423609008C2FF4 /* gameinn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0032CC72842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinn" */;
+			buildPhases = (
+				E0032C9F28423609008C2FF4 /* Sources */,
+				E0032CA028423609008C2FF4 /* Frameworks */,
+				E0032CA128423609008C2FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gameinn;
+			packageProductDependencies = (
+				E0032CE72842992F008C2FF4 /* YouTubePlayerKit */,
+			);
+			productName = gameinn;
+			productReference = E0032CA328423609008C2FF4 /* SocialChains.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0032CB22842360C008C2FF4 /* gameinnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0032CCA2842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinnTests" */;
+			buildPhases = (
+				E0032CAF2842360C008C2FF4 /* Sources */,
+				E0032CB02842360C008C2FF4 /* Frameworks */,
+				E0032CB12842360C008C2FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0032CB52842360C008C2FF4 /* PBXTargetDependency */,
+			);
+			name = gameinnTests;
+			productName = gameinnTests;
+			productReference = E0032CB32842360C008C2FF4 /* gameinnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0032CBC2842360C008C2FF4 /* gameinnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0032CCD2842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinnUITests" */;
+			buildPhases = (
+				E0032CB92842360C008C2FF4 /* Sources */,
+				E0032CBA2842360C008C2FF4 /* Frameworks */,
+				E0032CBB2842360C008C2FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0032CBF2842360C008C2FF4 /* PBXTargetDependency */,
+			);
+			name = gameinnUITests;
+			productName = gameinnUITests;
+			productReference = E0032CBD2842360C008C2FF4 /* gameinnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0032C9B28423609008C2FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E0032CA228423609008C2FF4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					E0032CB22842360C008C2FF4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E0032CA228423609008C2FF4;
+					};
+					E0032CBC2842360C008C2FF4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E0032CA228423609008C2FF4;
+					};
+				};
+			};
+			buildConfigurationList = E0032C9E28423609008C2FF4 /* Build configuration list for PBXProject "gameinn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0032C9A28423609008C2FF4;
+			packageReferences = (
+				E0032CE62842992F008C2FF4 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
+			productRefGroup = E0032CA428423609008C2FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0032CA228423609008C2FF4 /* gameinn */,
+				E0032CB22842360C008C2FF4 /* gameinnTests */,
+				E0032CBC2842360C008C2FF4 /* gameinnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0032CA128423609008C2FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0032D1928438932008C2FF4 /* logo-40.png in Resources */,
+				E0032CAE2842360B008C2FF4 /* Preview Assets.xcassets in Resources */,
+				E0032CF52842E115008C2FF4 /* fortnite-outfit-aim-1.jpg in Resources */,
+				E0032CAB2842360B008C2FF4 /* Assets.xcassets in Resources */,
+				E0032D1F28438932008C2FF4 /* logo-20.png in Resources */,
+				E0032D1228438932008C2FF4 /* logo-20@2x.png in Resources */,
+				E0032D1328438932008C2FF4 /* logo-29.png in Resources */,
+				E0032D1728438932008C2FF4 /* logo-40@3x.png in Resources */,
+				E0032D2028438932008C2FF4 /* logo-29@2x.png in Resources */,
+				E0032CD9284244E8008C2FF4 /* axieinfinity.jpg in Resources */,
+				E0032D1B28438932008C2FF4 /* logo-40@2x.png in Resources */,
+				E0032D1C28438932008C2FF4 /* logo-83.5@2x.png in Resources */,
+				E0032CF42842E115008C2FF4 /* fortnite-outfit-8-ball-vs-scratch.jpg in Resources */,
+				E0032D1528438932008C2FF4 /* logo-20@3x.png in Resources */,
+				E0032D1428438932008C2FF4 /* logo-1024.png in Resources */,
+				E0032D1E28438932008C2FF4 /* logo-29@3x.png in Resources */,
+				E0032D1628438932008C2FF4 /* logo-76.png in Resources */,
+				E0032D1828438932008C2FF4 /* Contents.json in Resources */,
+				E0032CDB284251B1008C2FF4 /* splinterlands.jpg in Resources */,
+				E0032CF22842E115008C2FF4 /* fortnite-outfit-Absenz.jpg in Resources */,
+				E0032D2128438932008C2FF4 /* logo-60@3x.png in Resources */,
+				E0032CDF28425573008C2FF4 /* author 2.jpg in Resources */,
+				E0032CF32842E115008C2FF4 /* fortnite-outfit-agent-peely.jpg in Resources */,
+				E0032CDD284253F3008C2FF4 /* author 1.jpg in Resources */,
+				E0032D1D28438932008C2FF4 /* logo-60@2x.png in Resources */,
+				E0032D1A28438932008C2FF4 /* logo-76@2x.png in Resources */,
+				E0032CF12842E115008C2FF4 /* fortnite-outfit-aerobic-assassin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CB12842360C008C2FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CBB2842360C008C2FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0032C9F28423609008C2FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0032CEA2842D7B1008C2FF4 /* NewPostView.swift in Sources */,
+				E0032CF928436104008C2FF4 /* ArticleStruct.swift in Sources */,
+				E0032CD52842381E008C2FF4 /* Account.swift in Sources */,
+				E0032CA928423609008C2FF4 /* ContentView.swift in Sources */,
+				E0032CD1284237FC008C2FF4 /* Feed.swift in Sources */,
+				E0032CFB2843692D008C2FF4 /* CommentsJSON.swift in Sources */,
+				E0032CE528427A56008C2FF4 /* ArticleView.swift in Sources */,
+				E0032CF728435A3A008C2FF4 /* FeedJSON.swift in Sources */,
+				E0032CFE28436E2B008C2FF4 /* CommentsView.swift in Sources */,
+				E0032CE128426853008C2FF4 /* StoreItem.swift in Sources */,
+				E0032CA728423609008C2FF4 /* gameinnApp.swift in Sources */,
+				E0032CD728424093008C2FF4 /* ArticleLink.swift in Sources */,
+				E0032CD32842380E008C2FF4 /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CAF2842360C008C2FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0032CB82842360C008C2FF4 /* gameinnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0032CB92842360C008C2FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0032CC42842360C008C2FF4 /* gameinnUITestsLaunchTests.swift in Sources */,
+				E0032CC22842360C008C2FF4 /* gameinnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0032CB52842360C008C2FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0032CA228423609008C2FF4 /* gameinn */;
+			targetProxy = E0032CB42842360C008C2FF4 /* PBXContainerItemProxy */;
+		};
+		E0032CBF2842360C008C2FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0032CA228423609008C2FF4 /* gameinn */;
+			targetProxy = E0032CBE2842360C008C2FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0032CC52842360C008C2FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0032CC62842360C008C2FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0032CC82842360C008C2FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gameinn/gameinn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gameinn/Preview Content\"";
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinn";
+				PRODUCT_NAME = SocialChains;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		E0032CC92842360C008C2FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gameinn/gameinn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gameinn/Preview Content\"";
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinn";
+				PRODUCT_NAME = SocialChains;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		E0032CCB2842360C008C2FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gameinn.app/gameinn";
+			};
+			name = Debug;
+		};
+		E0032CCC2842360C008C2FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gameinn.app/gameinn";
+			};
+			name = Release;
+		};
+		E0032CCE2842360C008C2FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gameinn;
+			};
+			name = Debug;
+		};
+		E0032CCF2842360C008C2FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K52EJNPD2V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t-software.gameinnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gameinn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0032C9E28423609008C2FF4 /* Build configuration list for PBXProject "gameinn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0032CC52842360C008C2FF4 /* Debug */,
+				E0032CC62842360C008C2FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0032CC72842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0032CC82842360C008C2FF4 /* Debug */,
+				E0032CC92842360C008C2FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0032CCA2842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0032CCB2842360C008C2FF4 /* Debug */,
+				E0032CCC2842360C008C2FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0032CCD2842360C008C2FF4 /* Build configuration list for PBXNativeTarget "gameinnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0032CCE2842360C008C2FF4 /* Debug */,
+				E0032CCF2842360C008C2FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0032CE62842992F008C2FF4 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0032CE72842992F008C2FF4 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0032CE62842992F008C2FF4 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E0032C9B28423609008C2FF4 /* Project object */;
+}
